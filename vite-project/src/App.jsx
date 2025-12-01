@@ -1,10 +1,10 @@
 // src/App.jsx
 
 import React from "react";
-import UserList from "./components/UserList"; 
+import ProductList from "./components/ProductList"; 
 
 function App() {
-  return <UserList />;
+  return <ProductList />;
 }
 
 export default App;
