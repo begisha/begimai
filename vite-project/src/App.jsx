@@ -1,10 +1,9 @@
 // src/App.jsx
-
 import React from "react";
-import ProductList from "./components/ProductList"; 
+import WeatherInput from "./components/WeatherInput"; 
 
 function App() {
-  return <ProductList />;
+  return <WeatherInput />;
 }
 
 export default App;
