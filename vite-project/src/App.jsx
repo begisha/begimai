@@ -1,9 +1,19 @@
 // src/App.jsx
-import React from "react";
-import WeatherInput from "./components/WeatherInput"; 
+
+import React from 'react';
+import Counter from './components/Counter.jsx'; 
+import FilteredList from './components/FilteredList.jsx'; 
 
 function App() {
-  return <WeatherInput />;
+  return (
+    <div className="App" style={{ padding: '20px', maxWidth: '800px', margin: '0 auto' }}>
+      <h1>DZ№5</h1>
+      
+      <Counter />
+      
+      <FilteredList />
+    </div>
+  );
 }
 
 export default App;
