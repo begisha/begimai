@@ -1,0 +1,33 @@
+/* src/components/RegistrationForm.module.scss */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f2f5;
+}
+
+.formWrapper {
+    width: 400px;
+    padding: 25px 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.star {
+    color: red;
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+.container {
+    min-height: 100vh; 
+    background: #f7a50d6c; 
+}
